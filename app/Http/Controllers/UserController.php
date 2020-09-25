@@ -17,7 +17,7 @@ class UserController extends Controller
     public function login(Request $request)
     {
         try {
-            Log::info('********************* A LOGIN *********************');
+            Log::info('Ingreso al metodo ogin');
             $validator = Validator::make($request->all(), [
                 'document_number' => 'required|string',
                 'password' => 'required|string',
