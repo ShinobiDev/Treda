@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Role extends Model
+class Tienda extends Model
 {
     protected $hidden = [
         'created_at','updated_at'

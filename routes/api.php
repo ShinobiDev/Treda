@@ -13,3 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 Route::post('login', 'UserController@login');
+
+Route::post('crearTienda', 'TiendaController@crearTienda');
+Route::put('actualizarTienda', 'TiendaController@actualizarTienda');
+Route::post('showTienda', 'TiendaController@showTienda');
+Route::get('getTiendas', 'TiendaController@getTiendas');
+Route::delete('eliminarTienda', 'TiendaController@eliminarTienda');

@@ -24,7 +24,6 @@ class UserController extends Controller
                 'rememberMe' => 'boolean',
             ]);
             if ($validator->fails()) {
-                Log::info('********************* B LOGIN *********************');
                 Log::error('Los datos ingresados son inválidos: ' . $validator->errors());
                 return Utilities::sendMessage(
                     Utilities::COD_RESPONSE_ERROR_LOGIN,
@@ -37,7 +36,6 @@ class UserController extends Controller
             Log::info('Pasó la validación de datos');
             $credentials = request(['document_number', 'password']);
             if (!Auth::attempt($credentials)) {
-                Log::info('********************* C LOGIN *********************');
                 Log::error('El usuario o la contraseña es inválida');
                 return Utilities::sendMessage(
                     Utilities::COD_RESPONSE_ERROR_UNAUTHORIZED,
@@ -66,7 +64,6 @@ class UserController extends Controller
                 'user' => $user
             ];
             Log::info('Objeto de respuesta creado');
-            Log::info('********************* D LOGIN *********************');
             return Utilities::sendMessage(
                 Utilities::COD_RESPONSE_SUCCESS,
                 'Inicio de sesión exitoso',
@@ -75,7 +72,6 @@ class UserController extends Controller
                 $response
             );
         } catch (Exception $e) {
-            Log::info('********************* E LOGIN *********************');
             Log::error('Ocurrió un error inesperado haciendo el inicio de sesión: ' . $e->getMessage());
             return Utilities::sendMessage(
                 Utilities::COD_RESPONSE_ERROR_LOGIN,

@@ -46,17 +46,6 @@ class Utilities
     const COD_RESPONSE_HTTP_NOT_FOUND = 404;
     const COD_RESPONSE_HTTP_ERROR = 500;
 
-     //Tipos de archivos
-    const COD_FILE_TYPE_PDF = 1;
-    const COD_FILE_TYPE_EXCEL = 2;
-    const COD_FILE_TYPE_WORD = 3;
-    const COD_FILE_TYPE_PT = 4;
-    const COD_FILE_TYPE_CSV = 5;
-    const COD_FILE_TYPE_TXT = 6;
-    const COD_FILE_TYPE_JPG = 7;
-    const COD_FILE_TYPE_PNG = 8;
-    const COD_FILE_TYPE_ZIP = 9;
-
     //Estados del sistema
     const COD_STATUS_ACTIVE = 1;
     const COD_STATUS_INACTIVE = 2;
@@ -90,37 +79,4 @@ class Utilities
             return response()->json([], 500);
         }
     }
-
-    /*
-    *   Funcion para leer el csv 
-    */
-    
-    
-    public static function convertCsvToArray($filename, $delimiter)
-    {
-        try {
-            Log::info('convirtiendo csv');
-            if (!file_exists($filename) || !is_readable($filename)) {
-                Log::error('no se pudo convertir');
-                return false;
-            }
-            Log::info($filename);
-            Log::info($delimiter);
-            $header = [];
-            $data = array();
-            $file = fopen($filename, 'r');
-            while (($line = fgetcsv($file)) !== FALSE) {
-              //$line is an array of the csv elements
-              array_push($data, $line);
-            } 
-            fclose($file);
-        } catch (\Exception $e) {
-            Log::error('Error inesperado al convertir el csv  '.$e->getMessage()) ;
-            return false;
-        }
-        Log::info('Se va a retornar la data '.json_encode($data));
-        return $data;
-    }
-
-
 }
