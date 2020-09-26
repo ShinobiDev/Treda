@@ -28,3 +28,4 @@ Route::get('getProductos', 'ProductoController@getProductos');
 Route::delete('eliminarProducto', 'ProductoController@eliminarProducto');
 
 Route::post('multiplos', 'FuncionesController@multiplos');
+Route::post('remplazar', 'FuncionesController@remplazar');

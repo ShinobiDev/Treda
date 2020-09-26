@@ -1,100 +1,44 @@
-[2020-09-26 01:25:01] local.INFO: Ingerso al metodo multiplos  
-[2020-09-26 01:25:01] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
-[2020-09-26 01:25:01] local.INFO: Numero 0  
-[2020-09-26 01:25:01] local.INFO: Es multiplo  
-[2020-09-26 01:25:01] local.INFO: Numero 1  
-[2020-09-26 01:25:01] local.INFO: Numero 2  
-[2020-09-26 01:25:01] local.INFO: Numero 3  
-[2020-09-26 01:25:01] local.INFO: Es multiplo  
-[2020-09-26 01:25:01] local.INFO: Numero 4  
-[2020-09-26 01:25:01] local.INFO: Numero 5  
-[2020-09-26 01:25:01] local.INFO: Numero 6  
-[2020-09-26 01:25:01] local.INFO: Es multiplo  
-[2020-09-26 01:25:01] local.INFO: Numero 7  
-[2020-09-26 01:25:01] local.INFO: Numero 8  
-[2020-09-26 01:25:01] local.INFO: Numero 9  
-[2020-09-26 01:25:01] local.INFO: Es multiplo  
-[2020-09-26 01:28:09] local.INFO: Ingerso al metodo multiplos  
-[2020-09-26 01:28:09] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
-[2020-09-26 01:28:09] local.INFO: Numero 0  
-[2020-09-26 01:28:09] local.INFO: 0 es multiplo de 3  
-[2020-09-26 01:28:09] local.INFO: 0 es multiplo de 5  
-[2020-09-26 01:28:09] local.INFO: Numero 1  
-[2020-09-26 01:28:09] local.INFO: Numero 2  
-[2020-09-26 01:28:09] local.INFO: Numero 3  
-[2020-09-26 01:28:09] local.INFO: 3 es multiplo de 3  
-[2020-09-26 01:28:09] local.INFO: Numero 4  
-[2020-09-26 01:28:09] local.INFO: Numero 5  
-[2020-09-26 01:28:09] local.INFO: 5 es multiplo de 5  
-[2020-09-26 01:28:09] local.INFO: Numero 6  
-[2020-09-26 01:28:09] local.INFO: 6 es multiplo de 3  
-[2020-09-26 01:28:09] local.INFO: Numero 7  
-[2020-09-26 01:28:09] local.INFO: Numero 8  
-[2020-09-26 01:28:09] local.INFO: Numero 9  
-[2020-09-26 01:28:09] local.INFO: 9 es multiplo de 3  
-[2020-09-26 01:30:26] local.INFO: Ingerso al metodo multiplos  
-[2020-09-26 01:30:26] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
-[2020-09-26 01:30:26] local.INFO: Numero 0  
-[2020-09-26 01:30:26] local.INFO: 0 es multiplo de 3  
-[2020-09-26 01:30:26] local.INFO: 0 es multiplo de 5  
-[2020-09-26 01:30:26] local.INFO: Numero 1  
-[2020-09-26 01:30:26] local.INFO: Numero 2  
-[2020-09-26 01:30:26] local.INFO: Numero 3  
-[2020-09-26 01:30:26] local.INFO: 3 es multiplo de 3  
-[2020-09-26 01:30:26] local.INFO: Numero 4  
-[2020-09-26 01:30:26] local.INFO: Numero 5  
-[2020-09-26 01:30:26] local.INFO: 5 es multiplo de 5  
-[2020-09-26 01:30:26] local.INFO: Numero 6  
-[2020-09-26 01:30:26] local.INFO: 6 es multiplo de 3  
-[2020-09-26 01:30:26] local.INFO: Numero 7  
-[2020-09-26 01:30:26] local.INFO: Numero 8  
-[2020-09-26 01:30:26] local.INFO: Numero 9  
-[2020-09-26 01:30:26] local.INFO: 9 es multiplo de 3  
-[2020-09-26 01:30:26] local.INFO: La suma de los multiplos es 23  
-[2020-09-26 01:30:26] local.INFO: Armando mensaje de envío  
-[2020-09-26 01:30:26] local.INFO: Llegaron todos los datos  
-[2020-09-26 01:30:56] local.INFO: Ingerso al metodo multiplos  
-[2020-09-26 01:30:56] local.INFO: Se validaron los datos con exito el numero ingresado es 12  
-[2020-09-26 01:30:56] local.INFO: Numero 0  
-[2020-09-26 01:30:56] local.INFO: 0 es multiplo de 3  
-[2020-09-26 01:30:56] local.INFO: 0 es multiplo de 5  
-[2020-09-26 01:30:56] local.INFO: Numero 1  
-[2020-09-26 01:30:56] local.INFO: Numero 2  
-[2020-09-26 01:30:56] local.INFO: Numero 3  
-[2020-09-26 01:30:56] local.INFO: 3 es multiplo de 3  
-[2020-09-26 01:30:56] local.INFO: Numero 4  
-[2020-09-26 01:30:56] local.INFO: Numero 5  
-[2020-09-26 01:30:56] local.INFO: 5 es multiplo de 5  
-[2020-09-26 01:30:56] local.INFO: Numero 6  
-[2020-09-26 01:30:56] local.INFO: 6 es multiplo de 3  
-[2020-09-26 01:30:56] local.INFO: Numero 7  
-[2020-09-26 01:30:56] local.INFO: Numero 8  
-[2020-09-26 01:30:56] local.INFO: Numero 9  
-[2020-09-26 01:30:56] local.INFO: 9 es multiplo de 3  
-[2020-09-26 01:30:56] local.INFO: Numero 10  
-[2020-09-26 01:30:56] local.INFO: 10 es multiplo de 5  
-[2020-09-26 01:30:56] local.INFO: Numero 11  
-[2020-09-26 01:30:56] local.INFO: La suma de los multiplos es 33  
-[2020-09-26 01:30:56] local.INFO: Armando mensaje de envío  
-[2020-09-26 01:30:56] local.INFO: Llegaron todos los datos  
-[2020-09-26 01:31:05] local.INFO: Ingerso al metodo multiplos  
-[2020-09-26 01:31:05] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
-[2020-09-26 01:31:05] local.INFO: Numero 0  
-[2020-09-26 01:31:05] local.INFO: 0 es multiplo de 3  
-[2020-09-26 01:31:05] local.INFO: 0 es multiplo de 5  
-[2020-09-26 01:31:05] local.INFO: Numero 1  
-[2020-09-26 01:31:05] local.INFO: Numero 2  
-[2020-09-26 01:31:05] local.INFO: Numero 3  
-[2020-09-26 01:31:05] local.INFO: 3 es multiplo de 3  
-[2020-09-26 01:31:05] local.INFO: Numero 4  
-[2020-09-26 01:31:05] local.INFO: Numero 5  
-[2020-09-26 01:31:05] local.INFO: 5 es multiplo de 5  
-[2020-09-26 01:31:05] local.INFO: Numero 6  
-[2020-09-26 01:31:05] local.INFO: 6 es multiplo de 3  
-[2020-09-26 01:31:05] local.INFO: Numero 7  
-[2020-09-26 01:31:05] local.INFO: Numero 8  
-[2020-09-26 01:31:05] local.INFO: Numero 9  
-[2020-09-26 01:31:05] local.INFO: 9 es multiplo de 3  
-[2020-09-26 01:31:05] local.INFO: La suma de los multiplos es 23  
-[2020-09-26 01:31:05] local.INFO: Armando mensaje de envío  
-[2020-09-26 01:31:05] local.INFO: Llegaron todos los datos  
+[2020-09-26 01:57:47] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 01:57:47] local.ERROR: Los datos ingresados son inválidos: {"frase":["Este campo es requerido."]}  
+[2020-09-26 01:57:47] local.INFO: Armando mensaje de envío  
+[2020-09-26 01:57:47] local.INFO: Llegaron todos los datos  
+[2020-09-26 01:58:48] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 01:58:48] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:00:53] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:00:53] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:00:53] local.ERROR: Error en el metodo Indirect modification of overloaded property Illuminate\Http\Request::$frase has no effect  
+[2020-09-26 02:02:25] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:02:25] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:02:25] local.ERROR: Error en el metodo Function create_function() is deprecated  
+[2020-09-26 02:03:30] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:03:30] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:03:46] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:03:46] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:03:48] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:03:48] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:03:51] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:03:51] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:05:00] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:05:00] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:06:57] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:06:57] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:06:57] local.ERROR: Error en el metodo Class 'App\Http\Controllers\Str' not found  
+[2020-09-26 02:09:10] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:09:10] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
+[2020-09-26 02:09:51] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:09:51] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions  
+[2020-09-26 02:11:23] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:11:23] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions  
+[2020-09-26 02:11:23] local.INFO: Se convierte el string a convecion Camel Case  
+[2020-09-26 02:11:23] local.INFO: Armando mensaje de envío  
+[2020-09-26 02:11:23] local.INFO: Llegaron todos los datos  
+[2020-09-26 02:12:10] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:12:10] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions con_mis-amigos  
+[2020-09-26 02:12:10] local.INFO: Se convierte el string a convecion Camel Case  
+[2020-09-26 02:12:10] local.INFO: Armando mensaje de envío  
+[2020-09-26 02:12:10] local.INFO: Llegaron todos los datos  
+[2020-09-26 02:12:28] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:12:28] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions con_mis-amigos  
+[2020-09-26 02:12:28] local.INFO: Se convierte el string a convecion Camel Case  
+[2020-09-26 02:12:28] local.INFO: Armando mensaje de envío  
+[2020-09-26 02:12:28] local.INFO: Llegaron todos los datos  

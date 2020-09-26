@@ -7,6 +7,7 @@ use App\Utilities;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 use Exception;
 
 class FuncionesController extends Controller
@@ -50,6 +51,42 @@ class FuncionesController extends Controller
                 $total
             );
             return $total;
+        } catch (\Throwable $e) {
+            Log::error('Error en el metodo '.$e->getMessage());
+            return $datos_return = [
+                'ResponseCode' => Utilities::COD_RESPONSE_ERROR_SHOW,
+                'ResponseMessage' => $e->getMessage()
+            ];
+        }
+    }
+
+    public function remplazar(Request $request)
+    {
+        try {
+            Log::info('Ingreso a la funcion para remplazar caracteres de un string');
+            $validator = Validator::make($request->all(), [
+                'frase' => 'required|string'
+            ]);
+            if ($validator->fails()) {
+                Log::error('Los datos ingresados son inválidos: ' . $validator->errors());
+                return Utilities::sendMessage(
+                    Utilities::COD_RESPONSE_ERROR_CREATE,
+                    'Los datos enviados son inválidos',
+                    true,
+                    Utilities::COD_RESPONSE_HTTP_BAD_REQUEST,
+                    $validator->errors()
+                );
+            }
+            Log::info('Se validaron los datos con exito '.$request->frase);
+            $camel = Str::camel($request->frase);
+            Log::info('Se convierte el string a convecion Camel Case');
+            return Utilities::sendMessage(
+                Utilities::COD_RESPONSE_SUCCESS,
+                'La frase con formato Camel Case ',
+                false,
+                Utilities::COD_RESPONSE_HTTP_OK,
+                $camel
+            );
         } catch (\Throwable $e) {
             Log::error('Error en el metodo '.$e->getMessage());
             return $datos_return = [
