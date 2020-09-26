@@ -1,44 +1,131 @@
-[2020-09-26 01:57:47] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 01:57:47] local.ERROR: Los datos ingresados son inválidos: {"frase":["Este campo es requerido."]}  
-[2020-09-26 01:57:47] local.INFO: Armando mensaje de envío  
-[2020-09-26 01:57:47] local.INFO: Llegaron todos los datos  
-[2020-09-26 01:58:48] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 01:58:48] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:00:53] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:00:53] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:00:53] local.ERROR: Error en el metodo Indirect modification of overloaded property Illuminate\Http\Request::$frase has no effect  
-[2020-09-26 02:02:25] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:02:25] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:02:25] local.ERROR: Error en el metodo Function create_function() is deprecated  
-[2020-09-26 02:03:30] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:03:30] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:03:46] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:03:46] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:03:48] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:03:48] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:03:51] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:03:51] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:05:00] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:05:00] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:06:57] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:06:57] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:06:57] local.ERROR: Error en el metodo Class 'App\Http\Controllers\Str' not found  
-[2020-09-26 02:09:10] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:09:10] local.INFO: Se validaron los datos con exito Bienvenido a_Treda-solutions  
-[2020-09-26 02:09:51] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:09:51] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions  
-[2020-09-26 02:11:23] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:11:23] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions  
-[2020-09-26 02:11:23] local.INFO: Se convierte el string a convecion Camel Case  
-[2020-09-26 02:11:23] local.INFO: Armando mensaje de envío  
-[2020-09-26 02:11:23] local.INFO: Llegaron todos los datos  
-[2020-09-26 02:12:10] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:12:10] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions con_mis-amigos  
-[2020-09-26 02:12:10] local.INFO: Se convierte el string a convecion Camel Case  
-[2020-09-26 02:12:10] local.INFO: Armando mensaje de envío  
-[2020-09-26 02:12:10] local.INFO: Llegaron todos los datos  
-[2020-09-26 02:12:28] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
-[2020-09-26 02:12:28] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions con_mis-amigos  
-[2020-09-26 02:12:28] local.INFO: Se convierte el string a convecion Camel Case  
-[2020-09-26 02:12:28] local.INFO: Armando mensaje de envío  
-[2020-09-26 02:12:28] local.INFO: Llegaron todos los datos  
+[2020-09-26 02:25:46] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-09-26 02:25:46] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions con_mis-amigos  
+[2020-09-26 02:25:46] local.INFO: Se convierte el string a convecion Camel Case  
+[2020-09-26 02:25:46] local.INFO: bienvenidoATredaSolutionsConMisAmigos  
+[2020-09-26 02:25:46] local.INFO: Armando mensaje de envío  
+[2020-09-26 02:25:46] local.INFO: Llegaron todos los datos  
+[2020-09-26 02:30:01] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:30:01] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:30:01] local.INFO: Frase: bienvenido-a_Treda solutions con_mis-amigos  
+[2020-09-26 02:30:01] local.ERROR: Undefined variable: frase {"exception":"[object] (ErrorException(code: 0): Undefined variable: frase at /var/www/html/treda/app/Http/Controllers/FuncionesController.php:119)
+[stacktrace]
+#0 /var/www/html/treda/app/Http/Controllers/FuncionesController.php(119): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/html/t...', 119, Array)
+#1 [internal function]: App\\Http\\Controllers\\FuncionesController->invertirPalabras(Object(Illuminate\\Http\\Request))
+#2 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#3 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('invertirPalabra...', Array)
+#4 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\FuncionesController), 'invertirPalabra...')
+#5 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\\Routing\\Route->runController()
+#6 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Router.php(681): Illuminate\\Routing\\Route->run()
+#7 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#12 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Router.php(683): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#14 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#15 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Router.php(624): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#16 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Routing/Router.php(613): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#17 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#18 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /var/www/html/treda/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 /var/www/html/treda/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#32 /var/www/html/treda/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#33 {main}
+"} 
+[2020-09-26 02:30:27] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:30:27] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:30:27] local.INFO: Frase: bienvenido-a_Treda solutions con_mis-amigos  
+[2020-09-26 02:30:58] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:30:58] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:30:58] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:39:02] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:39:02] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:39:02] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:39:15] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:39:15] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:39:15] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:40:06] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:40:06] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:40:06] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:40:06] local.ERROR: Error en el metodo Call to undefined function App\Http\Controllers\spliti()  
+[2020-09-26 02:42:57] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:42:57] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:42:57] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:45:39] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:45:39] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:45:39] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:45:39] local.INFO: Se explota el string en palabras y se recorren  
+[2020-09-26 02:45:39] local.INFO: Palabra: Bienvenido  
+[2020-09-26 02:47:24] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:47:24] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:47:24] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:47:24] local.INFO: Se explota el string en palabras y se recorren  
+[2020-09-26 02:47:24] local.INFO: Palabra: Bienvenido  
+[2020-09-26 02:54:55] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:54:55] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:54:55] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:54:55] local.INFO: Se explota el string en palabras y se recorren  
+[2020-09-26 02:54:55] local.INFO: Palabra: Bienvenido  
+[2020-09-26 02:54:55] local.INFO: Palabra: a  
+[2020-09-26 02:54:55] local.INFO: Palabra: Treda  
+[2020-09-26 02:54:55] local.INFO: Palabra: Solutions  
+[2020-09-26 02:55:35] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:55:35] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:55:35] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:55:35] local.INFO: Se explota el string en palabras y se recorren  
+[2020-09-26 02:55:35] local.INFO: Palabra: Bienvenido  
+[2020-09-26 02:55:35] local.INFO: Palabra: a  
+[2020-09-26 02:55:35] local.INFO: Palabra: Treda  
+[2020-09-26 02:55:35] local.INFO: Palabra: Solutions  
+[2020-09-26 02:56:11] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:56:11] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:56:11] local.INFO: Frase: Esta es una prueba de las conversion de las palabras  
+[2020-09-26 02:56:11] local.INFO: Se explota el string en palabras y se recorren  
+[2020-09-26 02:56:11] local.INFO: Palabra: Esta  
+[2020-09-26 02:56:11] local.INFO: Palabra: es  
+[2020-09-26 02:56:11] local.INFO: Palabra: una  
+[2020-09-26 02:56:11] local.INFO: Palabra: prueba  
+[2020-09-26 02:56:11] local.INFO: Palabra: de  
+[2020-09-26 02:56:11] local.INFO: Palabra: las  
+[2020-09-26 02:56:11] local.INFO: Palabra: conversion  
+[2020-09-26 02:56:11] local.INFO: Palabra: de  
+[2020-09-26 02:56:11] local.INFO: Palabra: las  
+[2020-09-26 02:56:11] local.INFO: Palabra: palabras  
+[2020-09-26 02:57:18] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:57:18] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:57:18] local.INFO: Frase: Esta es una prueba de las conversion de las palabras  
+[2020-09-26 02:57:18] local.INFO: Se explota el string en palabras y se recorren  
+[2020-09-26 02:57:18] local.INFO: Palabra: Esta  
+[2020-09-26 02:57:18] local.INFO: Palabra: es  
+[2020-09-26 02:57:18] local.INFO: Palabra: una  
+[2020-09-26 02:57:18] local.INFO: Palabra: prueba  
+[2020-09-26 02:57:18] local.INFO: Palabra: de  
+[2020-09-26 02:57:18] local.INFO: Palabra: las  
+[2020-09-26 02:57:18] local.INFO: Palabra: conversion  
+[2020-09-26 02:57:18] local.INFO: Palabra: de  
+[2020-09-26 02:57:18] local.INFO: Palabra: las  
+[2020-09-26 02:57:18] local.INFO: Palabra: palabras  
+[2020-09-26 02:57:18] local.INFO: Armando mensaje de envío  
+[2020-09-26 02:57:18] local.INFO: Llegaron todos los datos  
+[2020-09-26 02:57:44] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-09-26 02:57:44] local.INFO: Se validaron los datos con exito   
+[2020-09-26 02:57:44] local.INFO: Frase: Bienvenido a Treda Solutions  
+[2020-09-26 02:57:44] local.INFO: Se explota el string en palabras y se recorren  
+[2020-09-26 02:57:44] local.INFO: Palabra: Bienvenido  
+[2020-09-26 02:57:44] local.INFO: Palabra: a  
+[2020-09-26 02:57:44] local.INFO: Palabra: Treda  
+[2020-09-26 02:57:44] local.INFO: Palabra: Solutions  
+[2020-09-26 02:57:44] local.INFO: Armando mensaje de envío  
+[2020-09-26 02:57:44] local.INFO: Llegaron todos los datos  
