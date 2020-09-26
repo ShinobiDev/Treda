@@ -26,3 +26,5 @@ Route::post('mostrarProducto', 'ProductoController@mostrarProducto');
 Route::post('listaProductoTienda', 'ProductoController@listaProductoTienda');
 Route::get('getProductos', 'ProductoController@getProductos');
 Route::delete('eliminarProducto', 'ProductoController@eliminarProducto');
+
+Route::post('multiplos', 'FuncionesController@multiplos');

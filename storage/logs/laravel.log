@@ -1,0 +1,100 @@
+[2020-09-26 01:25:01] local.INFO: Ingerso al metodo multiplos  
+[2020-09-26 01:25:01] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-09-26 01:25:01] local.INFO: Numero 0  
+[2020-09-26 01:25:01] local.INFO: Es multiplo  
+[2020-09-26 01:25:01] local.INFO: Numero 1  
+[2020-09-26 01:25:01] local.INFO: Numero 2  
+[2020-09-26 01:25:01] local.INFO: Numero 3  
+[2020-09-26 01:25:01] local.INFO: Es multiplo  
+[2020-09-26 01:25:01] local.INFO: Numero 4  
+[2020-09-26 01:25:01] local.INFO: Numero 5  
+[2020-09-26 01:25:01] local.INFO: Numero 6  
+[2020-09-26 01:25:01] local.INFO: Es multiplo  
+[2020-09-26 01:25:01] local.INFO: Numero 7  
+[2020-09-26 01:25:01] local.INFO: Numero 8  
+[2020-09-26 01:25:01] local.INFO: Numero 9  
+[2020-09-26 01:25:01] local.INFO: Es multiplo  
+[2020-09-26 01:28:09] local.INFO: Ingerso al metodo multiplos  
+[2020-09-26 01:28:09] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-09-26 01:28:09] local.INFO: Numero 0  
+[2020-09-26 01:28:09] local.INFO: 0 es multiplo de 3  
+[2020-09-26 01:28:09] local.INFO: 0 es multiplo de 5  
+[2020-09-26 01:28:09] local.INFO: Numero 1  
+[2020-09-26 01:28:09] local.INFO: Numero 2  
+[2020-09-26 01:28:09] local.INFO: Numero 3  
+[2020-09-26 01:28:09] local.INFO: 3 es multiplo de 3  
+[2020-09-26 01:28:09] local.INFO: Numero 4  
+[2020-09-26 01:28:09] local.INFO: Numero 5  
+[2020-09-26 01:28:09] local.INFO: 5 es multiplo de 5  
+[2020-09-26 01:28:09] local.INFO: Numero 6  
+[2020-09-26 01:28:09] local.INFO: 6 es multiplo de 3  
+[2020-09-26 01:28:09] local.INFO: Numero 7  
+[2020-09-26 01:28:09] local.INFO: Numero 8  
+[2020-09-26 01:28:09] local.INFO: Numero 9  
+[2020-09-26 01:28:09] local.INFO: 9 es multiplo de 3  
+[2020-09-26 01:30:26] local.INFO: Ingerso al metodo multiplos  
+[2020-09-26 01:30:26] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-09-26 01:30:26] local.INFO: Numero 0  
+[2020-09-26 01:30:26] local.INFO: 0 es multiplo de 3  
+[2020-09-26 01:30:26] local.INFO: 0 es multiplo de 5  
+[2020-09-26 01:30:26] local.INFO: Numero 1  
+[2020-09-26 01:30:26] local.INFO: Numero 2  
+[2020-09-26 01:30:26] local.INFO: Numero 3  
+[2020-09-26 01:30:26] local.INFO: 3 es multiplo de 3  
+[2020-09-26 01:30:26] local.INFO: Numero 4  
+[2020-09-26 01:30:26] local.INFO: Numero 5  
+[2020-09-26 01:30:26] local.INFO: 5 es multiplo de 5  
+[2020-09-26 01:30:26] local.INFO: Numero 6  
+[2020-09-26 01:30:26] local.INFO: 6 es multiplo de 3  
+[2020-09-26 01:30:26] local.INFO: Numero 7  
+[2020-09-26 01:30:26] local.INFO: Numero 8  
+[2020-09-26 01:30:26] local.INFO: Numero 9  
+[2020-09-26 01:30:26] local.INFO: 9 es multiplo de 3  
+[2020-09-26 01:30:26] local.INFO: La suma de los multiplos es 23  
+[2020-09-26 01:30:26] local.INFO: Armando mensaje de envío  
+[2020-09-26 01:30:26] local.INFO: Llegaron todos los datos  
+[2020-09-26 01:30:56] local.INFO: Ingerso al metodo multiplos  
+[2020-09-26 01:30:56] local.INFO: Se validaron los datos con exito el numero ingresado es 12  
+[2020-09-26 01:30:56] local.INFO: Numero 0  
+[2020-09-26 01:30:56] local.INFO: 0 es multiplo de 3  
+[2020-09-26 01:30:56] local.INFO: 0 es multiplo de 5  
+[2020-09-26 01:30:56] local.INFO: Numero 1  
+[2020-09-26 01:30:56] local.INFO: Numero 2  
+[2020-09-26 01:30:56] local.INFO: Numero 3  
+[2020-09-26 01:30:56] local.INFO: 3 es multiplo de 3  
+[2020-09-26 01:30:56] local.INFO: Numero 4  
+[2020-09-26 01:30:56] local.INFO: Numero 5  
+[2020-09-26 01:30:56] local.INFO: 5 es multiplo de 5  
+[2020-09-26 01:30:56] local.INFO: Numero 6  
+[2020-09-26 01:30:56] local.INFO: 6 es multiplo de 3  
+[2020-09-26 01:30:56] local.INFO: Numero 7  
+[2020-09-26 01:30:56] local.INFO: Numero 8  
+[2020-09-26 01:30:56] local.INFO: Numero 9  
+[2020-09-26 01:30:56] local.INFO: 9 es multiplo de 3  
+[2020-09-26 01:30:56] local.INFO: Numero 10  
+[2020-09-26 01:30:56] local.INFO: 10 es multiplo de 5  
+[2020-09-26 01:30:56] local.INFO: Numero 11  
+[2020-09-26 01:30:56] local.INFO: La suma de los multiplos es 33  
+[2020-09-26 01:30:56] local.INFO: Armando mensaje de envío  
+[2020-09-26 01:30:56] local.INFO: Llegaron todos los datos  
+[2020-09-26 01:31:05] local.INFO: Ingerso al metodo multiplos  
+[2020-09-26 01:31:05] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-09-26 01:31:05] local.INFO: Numero 0  
+[2020-09-26 01:31:05] local.INFO: 0 es multiplo de 3  
+[2020-09-26 01:31:05] local.INFO: 0 es multiplo de 5  
+[2020-09-26 01:31:05] local.INFO: Numero 1  
+[2020-09-26 01:31:05] local.INFO: Numero 2  
+[2020-09-26 01:31:05] local.INFO: Numero 3  
+[2020-09-26 01:31:05] local.INFO: 3 es multiplo de 3  
+[2020-09-26 01:31:05] local.INFO: Numero 4  
+[2020-09-26 01:31:05] local.INFO: Numero 5  
+[2020-09-26 01:31:05] local.INFO: 5 es multiplo de 5  
+[2020-09-26 01:31:05] local.INFO: Numero 6  
+[2020-09-26 01:31:05] local.INFO: 6 es multiplo de 3  
+[2020-09-26 01:31:05] local.INFO: Numero 7  
+[2020-09-26 01:31:05] local.INFO: Numero 8  
+[2020-09-26 01:31:05] local.INFO: Numero 9  
+[2020-09-26 01:31:05] local.INFO: 9 es multiplo de 3  
+[2020-09-26 01:31:05] local.INFO: La suma de los multiplos es 23  
+[2020-09-26 01:31:05] local.INFO: Armando mensaje de envío  
+[2020-09-26 01:31:05] local.INFO: Llegaron todos los datos  
