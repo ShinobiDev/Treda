@@ -1,78 +1,160 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## Treda
+Treda es una api, realizado en laravel y que contiene en CRUD de un modelo de TIENDA y de un modelo PRODUCTO, ademas de contar con 3 funciones de logica de programación, que permiten, sumar los multiplos de 3 y 5, de los numeros menores a un numero ingresado por el usuario, otra función para converir frases con palabras separadas por espacio, guión y guión al piso, los cuales elimina y convierte la primera letra de la palabra siguiente en mayuscula y una ultima función que permite invertir las palabras que tienen mas de 5 letras.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Instalación
 
-## About Laravel
+Despues de descargar el proyecto o clonarlo en la carpeta del servidor local, abrimos la terminal, nos ubicamos en la carpeta del proyecto y ejecutamos el siguiente comando: 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```
+composer update require laravel/passport
+```
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Ejecutar migraciones
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Para ejecutar las migraciones, recuerde configurar los datos del archivo .env:
 
-## Learning Laravel
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=<Nombre de la base de datos>
+DB_USERNAME=<Usuario de la base de datos>
+DB_PASSWORD=<Password de la base de datos>
+```
+Despues de configurar el archivo .env, desde la terminal y ubicados en la carpeta del proyecto, ejecutamos el siguiente comando el cual realizara las migraciones de la base de datos y sus correspondientes seeders:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```
+php artisan migrate:refresh --seed
+```
+despues de esto, instalamos passport, que permite que los servicios sean consumidos como una api
 
-## Laravel Sponsors
+```
+php artisan passport:install
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Consumir los servicios
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+Para hacer uso de los servicios es necesario utilizar una aplicación para consumo de apis, se puede usar Postman, que es una herramienta que se puede usar de manera online o instalado en nuestro pc o utilizar la aplicacion VueJs que se encuentra en construcción en el repositorio https://github.com/ShinobiDev/front-prueba
 
-## Contributing
+## Servicios web
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Crear tienda
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/crearTienda
+json: 
+    {
+        "nombre": "Una tienda mas",
+        "fechaApertura": "02-12-2017"
+    }
+```
+Editar tienda
+```
+Metodo: PUT
+Ruta: localhost/treda/public/api/actualizarTienda
+json: 
+    {
+        "tiendaId": 1,
+        "nombre": "Actualizado",
+        "fechaApertura": "02-02-2020"
+    }
+```
+Eliminar tienda
+```
+Metodo: DELETE
+Ruta: localhost/treda/public/api/eliminarTienda
+json: 
+    {
+        "tiendaId":1
+    }
+```
+Mostrar tiendas
+```
+Ruta: localhost/treda/public/api/getTiendas
+```
+Mostrar tienda por Id
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/showTienda
+json: 
+    {
+        "tiendaId":1
+    }
+```
+Crear Producto
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/crearProducto
+json: 
+    {
+        "nombre": "Otro producto",
+        "sku": "333",
+        "descripcion": "Descripcion del producto",
+        "valor":3500,
+        "imagen": null,
+        "tiendaId": 1
+    }
+```
+Editar Producto
+```
+Metodo: PUT
+Ruta: localhost/treda/public/api/actualizarProducto
+json: 
+    {
+        "nombre": "Otro producto",
+        "sku": "333",
+        "descripcion": "Descripcion del producto",
+        "valor":3500,
+        "imagen": null,
+        "tiendaId": 1,
+        "productoId": 1
+    }
+```
+Mostrar productos por id
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/mostrarProducto
+json: 
+    {
+        "productoId":1
+    }
+```
+Mostrar productos por tienda
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/mostrarProducto
+json: 
+    {
+        "tiendaId":1
+    }
+```
+Funcion de multiplos
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/multiplos
+json: 
+    {
+        "numero": 10
+    }
+```
+Funcion CamelCase
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/remplazar
+json: 
+    {
+        "frase": "bienvenido-a_Treda solutions con_mis-amigos"
+    }
+```
+Funcion Invertir
+```
+Metodo: POST
+Ruta: localhost/treda/public/api/invertirPalabras
+json: 
+    {
+        "frase": "Bienvenido a Treda Solutions"
+    }
+```
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
