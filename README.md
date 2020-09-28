@@ -32,6 +32,11 @@ despues de esto, instalamos passport, que permite que los servicios sean consumi
 ```
 php artisan passport:install
 ```
+Y generamos la api key
+
+```
+php artisan key:generate
+```
 
 ## Consumir los servicios
 
