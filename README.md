@@ -35,7 +35,7 @@ php artisan passport:install
 
 ## Consumir los servicios
 
-Para hacer uso de los servicios es necesario utilizar una aplicación para consumo de apis, se puede usar Postman, que es una herramienta que se puede usar de manera online o instalado en nuestro pc o utilizar la aplicacion VueJs que se encuentra en construcción en el repositorio https://github.com/ShinobiDev/front-prueba
+Para hacer uso de los servicios es necesario utilizar una aplicación para consumo de apis, se puede usar Postman, que es una herramienta que se puede usar de manera online https://www.postman.com/ o instalado en nuestro pc o utilizar la aplicacion VueJs que se encuentra en construcción en el repositorio https://github.com/ShinobiDev/front-prueba
 
 ## Servicios web
 
