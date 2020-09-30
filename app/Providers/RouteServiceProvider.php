@@ -78,7 +78,22 @@ class RouteServiceProvider extends ServiceProvider
             'prefix' => 'api',
         ], function ($router) {
              //Add you routes here, for example:
-                Route::get('getTiendas', 'TiendaController@getTiendas');
+            Route::post('crearTienda', 'TiendaController@crearTienda');
+            Route::put('actualizarTienda', 'TiendaController@actualizarTienda');
+            Route::post('showTienda', 'TiendaController@showTienda');
+            Route::get('getTiendas', 'TiendaController@getTiendas');
+            Route::delete('eliminarTienda', 'TiendaController@eliminarTienda');
+            
+            Route::post('crearProducto', 'ProductoController@crearProducto');
+            Route::put('actualizarProducto', 'ProductoController@actualizarProducto');
+            Route::post('mostrarProducto', 'ProductoController@mostrarProducto');
+            Route::post('listaProductoTienda', 'ProductoController@listaProductoTienda');
+            Route::get('getProductos', 'ProductoController@getProductos');
+            Route::delete('eliminarProducto', 'ProductoController@eliminarProducto');
+            
+            Route::post('multiplos', 'FuncionesController@multiplos');
+            Route::post('remplazar', 'FuncionesController@remplazar');
+            Route::post('invertirPalabras', 'FuncionesController@invertirPalabras');
         });
     }
 }

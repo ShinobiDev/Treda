@@ -25,7 +25,7 @@ class TiendaController extends Controller
             
             $validator = Validator::make($request->all(), [
                 'nombre' => 'required|string|unique:tiendas,nombre',
-                'fechaApertura' => 'required|date|date_format:d-m-Y'
+                'fechaApertura' => 'required|date'
             ]);
             
             if ($validator->fails()) {
