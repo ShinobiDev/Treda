@@ -1,5 +1,99 @@
-[2020-09-30 22:30:22] local.INFO: Ingreso al metodo crearTienda  
-[2020-09-30 22:30:22] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+[2020-10-01 01:34:08] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 01:34:08] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+Accept:          application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
+Connection:      keep-alive
+Content-Length:  48
+Content-Type:    application/json;charset=UTF-8
+Host:            localhost
+Origin:          http://localhost:8080
+Referer:         http://localhost:8080/
+Sec-Fetch-Dest:  empty
+Sec-Fetch-Mode:  cors
+Sec-Fetch-Site:  same-site
+User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+
+{"nombre":"bbbbbb","fechaApertura":"2020-09-16"}  
+[2020-10-01 01:34:08] local.INFO: Se le da formato a la fecha 16-09-2020 00:00:00  
+[2020-10-01 01:34:08] local.NOTICE: Los datos se almacenaron con exito{"nombre":"bbbbbb","fecha_apertura":"16-09-2020 00:00:00","id":14}  
+[2020-10-01 01:34:08] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:34:08] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:35:15] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 01:35:15] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+Accept:          application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
+Connection:      keep-alive
+Content-Length:  48
+Content-Type:    application/json;charset=UTF-8
+Host:            localhost
+Origin:          http://localhost:8080
+Referer:         http://localhost:8080/
+Sec-Fetch-Dest:  empty
+Sec-Fetch-Mode:  cors
+Sec-Fetch-Site:  same-site
+User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+
+{"nombre":"ffffff","fechaApertura":"2020-09-19"}  
+[2020-10-01 01:35:15] local.INFO: Se le da formato a la fecha 19-09-2020 00:00:00  
+[2020-10-01 01:35:15] local.NOTICE: Los datos se almacenaron con exito{"nombre":"ffffff","fecha_apertura":"19-09-2020 00:00:00","id":15}  
+[2020-10-01 01:35:15] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:35:15] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:40:01] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 01:40:01] local.ERROR: Los datos ingresados son inválidos: {"nombre":["Este campo es requerido."],"fechaApertura":["Este campo es requerido."]}  
+[2020-10-01 01:40:01] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:40:01] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:40:03] local.INFO: Ingreso al metodo getTiendas  
+[2020-10-01 01:40:03] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:40:03] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:40:32] local.INFO: Ingreso al metodo getTiendas  
+[2020-10-01 01:40:32] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:40:32] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:52:32] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 01:52:32] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+Accept:          application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
+Connection:      keep-alive
+Content-Length:  48
+Content-Type:    application/json;charset=UTF-8
+Host:            localhost
+Origin:          http://localhost:8080
+Referer:         http://localhost:8080/
+Sec-Fetch-Dest:  empty
+Sec-Fetch-Mode:  cors
+Sec-Fetch-Site:  same-site
+User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+
+{"nombre":"cccccc","fechaApertura":"2020-09-02"}  
+[2020-10-01 01:52:32] local.INFO: Se le da formato a la fecha 02-09-2020 00:00:00  
+[2020-10-01 01:52:32] local.NOTICE: Los datos se almacenaron con exito{"nombre":"cccccc","fecha_apertura":"02-09-2020 00:00:00","id":16}  
+[2020-10-01 01:52:32] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:52:32] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:56:34] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 01:56:34] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+Accept:          application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
+Connection:      keep-alive
+Content-Length:  48
+Content-Type:    application/json;charset=UTF-8
+Host:            localhost
+Origin:          http://localhost:8080
+Referer:         http://localhost:8080/
+Sec-Fetch-Dest:  empty
+Sec-Fetch-Mode:  cors
+Sec-Fetch-Site:  same-site
+User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+
+{"nombre":"hhhhhh","fechaApertura":"2020-09-04"}  
+[2020-10-01 01:56:34] local.INFO: Se le da formato a la fecha 04-09-2020 00:00:00  
+[2020-10-01 01:56:34] local.NOTICE: Los datos se almacenaron con exito{"nombre":"hhhhhh","fecha_apertura":"04-09-2020 00:00:00","id":17}  
+[2020-10-01 01:56:34] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:56:34] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:57:48] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 01:57:48] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
 Accept:          application/json, text/plain, */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
@@ -14,18 +108,18 @@ Sec-Fetch-Mode:  cors
 Sec-Fetch-Site:  same-site
 User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
 
-{"nombre":"fefefef","fechaApertura":"2020-09-16"}  
-[2020-09-30 22:30:22] local.INFO: Se le da formato a la fecha 16-09-2020 00:00:00  
-[2020-09-30 22:30:22] local.NOTICE: Los datos se almacenaron con exito{"nombre":"fefefef","fecha_apertura":"16-09-2020 00:00:00","id":11}  
-[2020-09-30 22:30:22] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:30:22] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:31:16] local.INFO: Ingreso al metodo crearTienda  
-[2020-09-30 22:31:16] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+{"nombre":"rrrrrrr","fechaApertura":"2020-09-02"}  
+[2020-10-01 01:57:48] local.INFO: Se le da formato a la fecha 02-09-2020 00:00:00  
+[2020-10-01 01:57:48] local.NOTICE: Los datos se almacenaron con exito{"nombre":"rrrrrrr","fecha_apertura":"02-09-2020 00:00:00","id":18}  
+[2020-10-01 01:57:48] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:57:48] local.INFO: Llegaron todos los datos  
+[2020-10-01 01:58:16] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 01:58:16] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
 Accept:          application/json, text/plain, */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
 Connection:      keep-alive
-Content-Length:  54
+Content-Length:  48
 Content-Type:    application/json;charset=UTF-8
 Host:            localhost
 Origin:          http://localhost:8080
@@ -35,30 +129,18 @@ Sec-Fetch-Mode:  cors
 Sec-Fetch-Site:  same-site
 User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
 
-{"nombre":"edgar guzman","fechaApertura":"2020-09-30"}  
-[2020-09-30 22:31:16] local.INFO: Se le da formato a la fecha 30-09-2020 00:00:00  
-[2020-09-30 22:31:16] local.NOTICE: Los datos se almacenaron con exito{"nombre":"edgar guzman","fecha_apertura":"30-09-2020 00:00:00","id":12}  
-[2020-09-30 22:31:16] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:31:16] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:31:54] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:31:54] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:31:54] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:31:59] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:31:59] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:31:59] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:37:22] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:37:22] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:37:22] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:39:23] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:39:23] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:39:23] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:39:40] local.INFO: Ingreso al metodo crearTienda  
-[2020-09-30 22:39:40] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+{"nombre":"yyyyyy","fechaApertura":"2020-09-08"}  
+[2020-10-01 01:58:16] local.INFO: Se le da formato a la fecha 08-09-2020 00:00:00  
+[2020-10-01 01:58:16] local.NOTICE: Los datos se almacenaron con exito{"nombre":"yyyyyy","fecha_apertura":"08-09-2020 00:00:00","id":19}  
+[2020-10-01 01:58:16] local.INFO: Armando mensaje de envío  
+[2020-10-01 01:58:16] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:03:42] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 02:03:42] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
 Accept:          application/json, text/plain, */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
 Connection:      keep-alive
-Content-Length:  52
+Content-Length:  47
 Content-Type:    application/json;charset=UTF-8
 Host:            localhost
 Origin:          http://localhost:8080
@@ -68,32 +150,665 @@ Sec-Fetch-Mode:  cors
 Sec-Fetch-Site:  same-site
 User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
 
-{"nombre":"tyrtyryryr","fechaApertura":"2020-09-14"}  
-[2020-09-30 22:39:40] local.INFO: Se le da formato a la fecha 14-09-2020 00:00:00  
-[2020-09-30 22:39:40] local.NOTICE: Los datos se almacenaron con exito{"nombre":"tyrtyryryr","fecha_apertura":"14-09-2020 00:00:00","id":13}  
-[2020-09-30 22:39:40] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:39:40] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:41:07] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:41:07] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:41:07] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:51:25] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:51:25] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:51:25] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:52:49] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:52:49] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:52:49] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:52:52] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:52:52] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:52:52] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:52:55] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:52:55] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:52:55] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:54:08] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:54:08] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:54:08] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:54:10] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:54:10] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:54:10] local.INFO: Llegaron todos los datos  
-[2020-09-30 22:54:16] local.INFO: Ingreso al metodo getTiendas  
-[2020-09-30 22:54:16] local.INFO: Armando mensaje de envío  
-[2020-09-30 22:54:16] local.INFO: Llegaron todos los datos  
+{"nombre":"kkkkk","fechaApertura":"2020-09-03"}  
+[2020-10-01 02:03:42] local.INFO: Se le da formato a la fecha 03-09-2020 00:00:00  
+[2020-10-01 02:03:42] local.NOTICE: Los datos se almacenaron con exito{"nombre":"kkkkk","fecha_apertura":"03-09-2020 00:00:00","id":20}  
+[2020-10-01 02:03:42] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:03:42] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:08:02] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 02:08:02] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+Accept:          application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
+Connection:      keep-alive
+Content-Length:  47
+Content-Type:    application/json;charset=UTF-8
+Host:            localhost
+Origin:          http://localhost:8080
+Referer:         http://localhost:8080/
+Sec-Fetch-Dest:  empty
+Sec-Fetch-Mode:  cors
+Sec-Fetch-Site:  same-site
+User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+
+{"nombre":"ggggg","fechaApertura":"2020-09-11"}  
+[2020-10-01 02:08:02] local.INFO: Se le da formato a la fecha 11-09-2020 00:00:00  
+[2020-10-01 02:08:02] local.NOTICE: Los datos se almacenaron con exito{"nombre":"ggggg","fecha_apertura":"11-09-2020 00:00:00","id":21}  
+[2020-10-01 02:08:02] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:08:02] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:14:49] local.INFO: Ingreso al metodo getTiendas  
+[2020-10-01 02:14:49] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:14:49] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:17:22] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 02:17:22] local.INFO: Se validan los datos con exitoPOST /treda/public/api/crearTienda HTTP/1.1
+Accept:          application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-CO,es-419;q=0.9,es;q=0.8,en;q=0.7
+Connection:      keep-alive
+Content-Length:  47
+Content-Type:    application/json;charset=UTF-8
+Host:            localhost
+Origin:          http://localhost:8080
+Referer:         http://localhost:8080/
+Sec-Fetch-Dest:  empty
+Sec-Fetch-Mode:  cors
+Sec-Fetch-Site:  same-site
+User-Agent:      Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+
+{"nombre":"xxxxx","fechaApertura":"2020-09-04"}  
+[2020-10-01 02:17:22] local.INFO: Se le da formato a la fecha 04-09-2020 00:00:00  
+[2020-10-01 02:17:22] local.NOTICE: Los datos se almacenaron con exito{"nombre":"xxxxx","fecha_apertura":"04-09-2020 00:00:00","id":22}  
+[2020-10-01 02:17:22] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:17:22] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:17:32] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 02:17:32] local.ERROR: Los datos ingresados son inválidos: {"nombre":["Este campo ya ha sido tomado."]}  
+[2020-10-01 02:17:32] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:17:32] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:17:33] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 02:17:33] local.ERROR: Los datos ingresados son inválidos: {"nombre":["Este campo ya ha sido tomado."]}  
+[2020-10-01 02:17:33] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:17:33] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:34:02] local.INFO: Ingreso al metodo getTiendas  
+[2020-10-01 02:34:02] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:34:02] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:52:27] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:52:27] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-10-01 02:52:27] local.INFO: Numero 0  
+[2020-10-01 02:52:27] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:52:27] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:52:27] local.INFO: Numero 1  
+[2020-10-01 02:52:27] local.INFO: Numero 2  
+[2020-10-01 02:52:27] local.INFO: Numero 3  
+[2020-10-01 02:52:27] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:52:27] local.INFO: Numero 4  
+[2020-10-01 02:52:27] local.INFO: Numero 5  
+[2020-10-01 02:52:27] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:52:27] local.INFO: Numero 6  
+[2020-10-01 02:52:27] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:52:27] local.INFO: Numero 7  
+[2020-10-01 02:52:27] local.INFO: Numero 8  
+[2020-10-01 02:52:27] local.INFO: Numero 9  
+[2020-10-01 02:52:27] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:52:27] local.INFO: La suma de los multiplos es 23  
+[2020-10-01 02:52:27] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:52:27] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:53:07] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:53:07] local.INFO: Se validaron los datos con exito el numero ingresado es 22  
+[2020-10-01 02:53:07] local.INFO: Numero 0  
+[2020-10-01 02:53:07] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:53:07] local.INFO: Numero 1  
+[2020-10-01 02:53:07] local.INFO: Numero 2  
+[2020-10-01 02:53:07] local.INFO: Numero 3  
+[2020-10-01 02:53:07] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: Numero 4  
+[2020-10-01 02:53:07] local.INFO: Numero 5  
+[2020-10-01 02:53:07] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:53:07] local.INFO: Numero 6  
+[2020-10-01 02:53:07] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: Numero 7  
+[2020-10-01 02:53:07] local.INFO: Numero 8  
+[2020-10-01 02:53:07] local.INFO: Numero 9  
+[2020-10-01 02:53:07] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: Numero 10  
+[2020-10-01 02:53:07] local.INFO: 10 es multiplo de 5  
+[2020-10-01 02:53:07] local.INFO: Numero 11  
+[2020-10-01 02:53:07] local.INFO: Numero 12  
+[2020-10-01 02:53:07] local.INFO: 12 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: Numero 13  
+[2020-10-01 02:53:07] local.INFO: Numero 14  
+[2020-10-01 02:53:07] local.INFO: Numero 15  
+[2020-10-01 02:53:07] local.INFO: 15 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: 15 es multiplo de 5  
+[2020-10-01 02:53:07] local.INFO: Numero 16  
+[2020-10-01 02:53:07] local.INFO: Numero 17  
+[2020-10-01 02:53:07] local.INFO: Numero 18  
+[2020-10-01 02:53:07] local.INFO: 18 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: Numero 19  
+[2020-10-01 02:53:07] local.INFO: Numero 20  
+[2020-10-01 02:53:07] local.INFO: 20 es multiplo de 5  
+[2020-10-01 02:53:07] local.INFO: Numero 21  
+[2020-10-01 02:53:07] local.INFO: 21 es multiplo de 3  
+[2020-10-01 02:53:07] local.INFO: La suma de los multiplos es 134  
+[2020-10-01 02:53:07] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:53:07] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:54:24] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:54:24] local.ERROR: Los datos ingresados son inválidos: {"numero":["Este campo es requerido."]}  
+[2020-10-01 02:54:24] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:54:24] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:54:33] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:54:33] local.ERROR: Los datos ingresados son inválidos: {"numero":["Este campo es requerido."]}  
+[2020-10-01 02:54:33] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:54:33] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:54:37] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:54:37] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-10-01 02:54:37] local.INFO: Numero 0  
+[2020-10-01 02:54:37] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:54:37] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:54:37] local.INFO: Numero 1  
+[2020-10-01 02:54:37] local.INFO: Numero 2  
+[2020-10-01 02:54:37] local.INFO: Numero 3  
+[2020-10-01 02:54:37] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:54:37] local.INFO: Numero 4  
+[2020-10-01 02:54:37] local.INFO: Numero 5  
+[2020-10-01 02:54:37] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:54:37] local.INFO: Numero 6  
+[2020-10-01 02:54:37] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:54:37] local.INFO: Numero 7  
+[2020-10-01 02:54:37] local.INFO: Numero 8  
+[2020-10-01 02:54:37] local.INFO: Numero 9  
+[2020-10-01 02:54:37] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:54:37] local.INFO: La suma de los multiplos es 23  
+[2020-10-01 02:54:37] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:54:37] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:55:30] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:55:30] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-10-01 02:55:30] local.INFO: Numero 0  
+[2020-10-01 02:55:30] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:55:30] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:55:30] local.INFO: Numero 1  
+[2020-10-01 02:55:30] local.INFO: Numero 2  
+[2020-10-01 02:55:30] local.INFO: Numero 3  
+[2020-10-01 02:55:30] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:55:30] local.INFO: Numero 4  
+[2020-10-01 02:55:30] local.INFO: Numero 5  
+[2020-10-01 02:55:30] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:55:30] local.INFO: Numero 6  
+[2020-10-01 02:55:30] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:55:30] local.INFO: Numero 7  
+[2020-10-01 02:55:30] local.INFO: Numero 8  
+[2020-10-01 02:55:30] local.INFO: Numero 9  
+[2020-10-01 02:55:30] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:55:30] local.INFO: La suma de los multiplos es 23  
+[2020-10-01 02:55:30] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:55:30] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:55:31] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:55:31] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-10-01 02:55:31] local.INFO: Numero 0  
+[2020-10-01 02:55:31] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:55:31] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:55:31] local.INFO: Numero 1  
+[2020-10-01 02:55:31] local.INFO: Numero 2  
+[2020-10-01 02:55:31] local.INFO: Numero 3  
+[2020-10-01 02:55:31] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:55:31] local.INFO: Numero 4  
+[2020-10-01 02:55:31] local.INFO: Numero 5  
+[2020-10-01 02:55:31] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:55:31] local.INFO: Numero 6  
+[2020-10-01 02:55:31] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:55:31] local.INFO: Numero 7  
+[2020-10-01 02:55:31] local.INFO: Numero 8  
+[2020-10-01 02:55:31] local.INFO: Numero 9  
+[2020-10-01 02:55:31] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:55:31] local.INFO: La suma de los multiplos es 23  
+[2020-10-01 02:55:31] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:55:31] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:55:49] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:55:49] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-10-01 02:55:49] local.INFO: Numero 0  
+[2020-10-01 02:55:49] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:55:49] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:55:49] local.INFO: Numero 1  
+[2020-10-01 02:55:49] local.INFO: Numero 2  
+[2020-10-01 02:55:49] local.INFO: Numero 3  
+[2020-10-01 02:55:49] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:55:49] local.INFO: Numero 4  
+[2020-10-01 02:55:49] local.INFO: Numero 5  
+[2020-10-01 02:55:49] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:55:49] local.INFO: Numero 6  
+[2020-10-01 02:55:49] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:55:49] local.INFO: Numero 7  
+[2020-10-01 02:55:49] local.INFO: Numero 8  
+[2020-10-01 02:55:49] local.INFO: Numero 9  
+[2020-10-01 02:55:49] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:55:49] local.INFO: La suma de los multiplos es 23  
+[2020-10-01 02:55:49] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:55:49] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:55:53] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:55:53] local.INFO: Se validaron los datos con exito el numero ingresado es 223  
+[2020-10-01 02:55:53] local.INFO: Numero 0  
+[2020-10-01 02:55:53] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 1  
+[2020-10-01 02:55:53] local.INFO: Numero 2  
+[2020-10-01 02:55:53] local.INFO: Numero 3  
+[2020-10-01 02:55:53] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 4  
+[2020-10-01 02:55:53] local.INFO: Numero 5  
+[2020-10-01 02:55:53] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 6  
+[2020-10-01 02:55:53] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 7  
+[2020-10-01 02:55:53] local.INFO: Numero 8  
+[2020-10-01 02:55:53] local.INFO: Numero 9  
+[2020-10-01 02:55:53] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 10  
+[2020-10-01 02:55:53] local.INFO: 10 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 11  
+[2020-10-01 02:55:53] local.INFO: Numero 12  
+[2020-10-01 02:55:53] local.INFO: 12 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 13  
+[2020-10-01 02:55:53] local.INFO: Numero 14  
+[2020-10-01 02:55:53] local.INFO: Numero 15  
+[2020-10-01 02:55:53] local.INFO: 15 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 15 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 16  
+[2020-10-01 02:55:53] local.INFO: Numero 17  
+[2020-10-01 02:55:53] local.INFO: Numero 18  
+[2020-10-01 02:55:53] local.INFO: 18 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 19  
+[2020-10-01 02:55:53] local.INFO: Numero 20  
+[2020-10-01 02:55:53] local.INFO: 20 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 21  
+[2020-10-01 02:55:53] local.INFO: 21 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 22  
+[2020-10-01 02:55:53] local.INFO: Numero 23  
+[2020-10-01 02:55:53] local.INFO: Numero 24  
+[2020-10-01 02:55:53] local.INFO: 24 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 25  
+[2020-10-01 02:55:53] local.INFO: 25 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 26  
+[2020-10-01 02:55:53] local.INFO: Numero 27  
+[2020-10-01 02:55:53] local.INFO: 27 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 28  
+[2020-10-01 02:55:53] local.INFO: Numero 29  
+[2020-10-01 02:55:53] local.INFO: Numero 30  
+[2020-10-01 02:55:53] local.INFO: 30 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 30 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 31  
+[2020-10-01 02:55:53] local.INFO: Numero 32  
+[2020-10-01 02:55:53] local.INFO: Numero 33  
+[2020-10-01 02:55:53] local.INFO: 33 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 34  
+[2020-10-01 02:55:53] local.INFO: Numero 35  
+[2020-10-01 02:55:53] local.INFO: 35 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 36  
+[2020-10-01 02:55:53] local.INFO: 36 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 37  
+[2020-10-01 02:55:53] local.INFO: Numero 38  
+[2020-10-01 02:55:53] local.INFO: Numero 39  
+[2020-10-01 02:55:53] local.INFO: 39 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 40  
+[2020-10-01 02:55:53] local.INFO: 40 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 41  
+[2020-10-01 02:55:53] local.INFO: Numero 42  
+[2020-10-01 02:55:53] local.INFO: 42 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 43  
+[2020-10-01 02:55:53] local.INFO: Numero 44  
+[2020-10-01 02:55:53] local.INFO: Numero 45  
+[2020-10-01 02:55:53] local.INFO: 45 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 45 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 46  
+[2020-10-01 02:55:53] local.INFO: Numero 47  
+[2020-10-01 02:55:53] local.INFO: Numero 48  
+[2020-10-01 02:55:53] local.INFO: 48 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 49  
+[2020-10-01 02:55:53] local.INFO: Numero 50  
+[2020-10-01 02:55:53] local.INFO: 50 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 51  
+[2020-10-01 02:55:53] local.INFO: 51 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 52  
+[2020-10-01 02:55:53] local.INFO: Numero 53  
+[2020-10-01 02:55:53] local.INFO: Numero 54  
+[2020-10-01 02:55:53] local.INFO: 54 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 55  
+[2020-10-01 02:55:53] local.INFO: 55 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 56  
+[2020-10-01 02:55:53] local.INFO: Numero 57  
+[2020-10-01 02:55:53] local.INFO: 57 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 58  
+[2020-10-01 02:55:53] local.INFO: Numero 59  
+[2020-10-01 02:55:53] local.INFO: Numero 60  
+[2020-10-01 02:55:53] local.INFO: 60 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 60 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 61  
+[2020-10-01 02:55:53] local.INFO: Numero 62  
+[2020-10-01 02:55:53] local.INFO: Numero 63  
+[2020-10-01 02:55:53] local.INFO: 63 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 64  
+[2020-10-01 02:55:53] local.INFO: Numero 65  
+[2020-10-01 02:55:53] local.INFO: 65 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 66  
+[2020-10-01 02:55:53] local.INFO: 66 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 67  
+[2020-10-01 02:55:53] local.INFO: Numero 68  
+[2020-10-01 02:55:53] local.INFO: Numero 69  
+[2020-10-01 02:55:53] local.INFO: 69 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 70  
+[2020-10-01 02:55:53] local.INFO: 70 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 71  
+[2020-10-01 02:55:53] local.INFO: Numero 72  
+[2020-10-01 02:55:53] local.INFO: 72 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 73  
+[2020-10-01 02:55:53] local.INFO: Numero 74  
+[2020-10-01 02:55:53] local.INFO: Numero 75  
+[2020-10-01 02:55:53] local.INFO: 75 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 75 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 76  
+[2020-10-01 02:55:53] local.INFO: Numero 77  
+[2020-10-01 02:55:53] local.INFO: Numero 78  
+[2020-10-01 02:55:53] local.INFO: 78 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 79  
+[2020-10-01 02:55:53] local.INFO: Numero 80  
+[2020-10-01 02:55:53] local.INFO: 80 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 81  
+[2020-10-01 02:55:53] local.INFO: 81 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 82  
+[2020-10-01 02:55:53] local.INFO: Numero 83  
+[2020-10-01 02:55:53] local.INFO: Numero 84  
+[2020-10-01 02:55:53] local.INFO: 84 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 85  
+[2020-10-01 02:55:53] local.INFO: 85 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 86  
+[2020-10-01 02:55:53] local.INFO: Numero 87  
+[2020-10-01 02:55:53] local.INFO: 87 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 88  
+[2020-10-01 02:55:53] local.INFO: Numero 89  
+[2020-10-01 02:55:53] local.INFO: Numero 90  
+[2020-10-01 02:55:53] local.INFO: 90 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 90 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 91  
+[2020-10-01 02:55:53] local.INFO: Numero 92  
+[2020-10-01 02:55:53] local.INFO: Numero 93  
+[2020-10-01 02:55:53] local.INFO: 93 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 94  
+[2020-10-01 02:55:53] local.INFO: Numero 95  
+[2020-10-01 02:55:53] local.INFO: 95 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 96  
+[2020-10-01 02:55:53] local.INFO: 96 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 97  
+[2020-10-01 02:55:53] local.INFO: Numero 98  
+[2020-10-01 02:55:53] local.INFO: Numero 99  
+[2020-10-01 02:55:53] local.INFO: 99 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 100  
+[2020-10-01 02:55:53] local.INFO: 100 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 101  
+[2020-10-01 02:55:53] local.INFO: Numero 102  
+[2020-10-01 02:55:53] local.INFO: 102 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 103  
+[2020-10-01 02:55:53] local.INFO: Numero 104  
+[2020-10-01 02:55:53] local.INFO: Numero 105  
+[2020-10-01 02:55:53] local.INFO: 105 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 105 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 106  
+[2020-10-01 02:55:53] local.INFO: Numero 107  
+[2020-10-01 02:55:53] local.INFO: Numero 108  
+[2020-10-01 02:55:53] local.INFO: 108 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 109  
+[2020-10-01 02:55:53] local.INFO: Numero 110  
+[2020-10-01 02:55:53] local.INFO: 110 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 111  
+[2020-10-01 02:55:53] local.INFO: 111 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 112  
+[2020-10-01 02:55:53] local.INFO: Numero 113  
+[2020-10-01 02:55:53] local.INFO: Numero 114  
+[2020-10-01 02:55:53] local.INFO: 114 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 115  
+[2020-10-01 02:55:53] local.INFO: 115 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 116  
+[2020-10-01 02:55:53] local.INFO: Numero 117  
+[2020-10-01 02:55:53] local.INFO: 117 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 118  
+[2020-10-01 02:55:53] local.INFO: Numero 119  
+[2020-10-01 02:55:53] local.INFO: Numero 120  
+[2020-10-01 02:55:53] local.INFO: 120 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 120 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 121  
+[2020-10-01 02:55:53] local.INFO: Numero 122  
+[2020-10-01 02:55:53] local.INFO: Numero 123  
+[2020-10-01 02:55:53] local.INFO: 123 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 124  
+[2020-10-01 02:55:53] local.INFO: Numero 125  
+[2020-10-01 02:55:53] local.INFO: 125 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 126  
+[2020-10-01 02:55:53] local.INFO: 126 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 127  
+[2020-10-01 02:55:53] local.INFO: Numero 128  
+[2020-10-01 02:55:53] local.INFO: Numero 129  
+[2020-10-01 02:55:53] local.INFO: 129 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 130  
+[2020-10-01 02:55:53] local.INFO: 130 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 131  
+[2020-10-01 02:55:53] local.INFO: Numero 132  
+[2020-10-01 02:55:53] local.INFO: 132 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 133  
+[2020-10-01 02:55:53] local.INFO: Numero 134  
+[2020-10-01 02:55:53] local.INFO: Numero 135  
+[2020-10-01 02:55:53] local.INFO: 135 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 135 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 136  
+[2020-10-01 02:55:53] local.INFO: Numero 137  
+[2020-10-01 02:55:53] local.INFO: Numero 138  
+[2020-10-01 02:55:53] local.INFO: 138 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 139  
+[2020-10-01 02:55:53] local.INFO: Numero 140  
+[2020-10-01 02:55:53] local.INFO: 140 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 141  
+[2020-10-01 02:55:53] local.INFO: 141 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 142  
+[2020-10-01 02:55:53] local.INFO: Numero 143  
+[2020-10-01 02:55:53] local.INFO: Numero 144  
+[2020-10-01 02:55:53] local.INFO: 144 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 145  
+[2020-10-01 02:55:53] local.INFO: 145 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 146  
+[2020-10-01 02:55:53] local.INFO: Numero 147  
+[2020-10-01 02:55:53] local.INFO: 147 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 148  
+[2020-10-01 02:55:53] local.INFO: Numero 149  
+[2020-10-01 02:55:53] local.INFO: Numero 150  
+[2020-10-01 02:55:53] local.INFO: 150 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 150 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 151  
+[2020-10-01 02:55:53] local.INFO: Numero 152  
+[2020-10-01 02:55:53] local.INFO: Numero 153  
+[2020-10-01 02:55:53] local.INFO: 153 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 154  
+[2020-10-01 02:55:53] local.INFO: Numero 155  
+[2020-10-01 02:55:53] local.INFO: 155 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 156  
+[2020-10-01 02:55:53] local.INFO: 156 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 157  
+[2020-10-01 02:55:53] local.INFO: Numero 158  
+[2020-10-01 02:55:53] local.INFO: Numero 159  
+[2020-10-01 02:55:53] local.INFO: 159 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 160  
+[2020-10-01 02:55:53] local.INFO: 160 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 161  
+[2020-10-01 02:55:53] local.INFO: Numero 162  
+[2020-10-01 02:55:53] local.INFO: 162 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 163  
+[2020-10-01 02:55:53] local.INFO: Numero 164  
+[2020-10-01 02:55:53] local.INFO: Numero 165  
+[2020-10-01 02:55:53] local.INFO: 165 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 165 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 166  
+[2020-10-01 02:55:53] local.INFO: Numero 167  
+[2020-10-01 02:55:53] local.INFO: Numero 168  
+[2020-10-01 02:55:53] local.INFO: 168 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 169  
+[2020-10-01 02:55:53] local.INFO: Numero 170  
+[2020-10-01 02:55:53] local.INFO: 170 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 171  
+[2020-10-01 02:55:53] local.INFO: 171 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 172  
+[2020-10-01 02:55:53] local.INFO: Numero 173  
+[2020-10-01 02:55:53] local.INFO: Numero 174  
+[2020-10-01 02:55:53] local.INFO: 174 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 175  
+[2020-10-01 02:55:53] local.INFO: 175 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 176  
+[2020-10-01 02:55:53] local.INFO: Numero 177  
+[2020-10-01 02:55:53] local.INFO: 177 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 178  
+[2020-10-01 02:55:53] local.INFO: Numero 179  
+[2020-10-01 02:55:53] local.INFO: Numero 180  
+[2020-10-01 02:55:53] local.INFO: 180 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 180 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 181  
+[2020-10-01 02:55:53] local.INFO: Numero 182  
+[2020-10-01 02:55:53] local.INFO: Numero 183  
+[2020-10-01 02:55:53] local.INFO: 183 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 184  
+[2020-10-01 02:55:53] local.INFO: Numero 185  
+[2020-10-01 02:55:53] local.INFO: 185 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 186  
+[2020-10-01 02:55:53] local.INFO: 186 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 187  
+[2020-10-01 02:55:53] local.INFO: Numero 188  
+[2020-10-01 02:55:53] local.INFO: Numero 189  
+[2020-10-01 02:55:53] local.INFO: 189 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 190  
+[2020-10-01 02:55:53] local.INFO: 190 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 191  
+[2020-10-01 02:55:53] local.INFO: Numero 192  
+[2020-10-01 02:55:53] local.INFO: 192 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 193  
+[2020-10-01 02:55:53] local.INFO: Numero 194  
+[2020-10-01 02:55:53] local.INFO: Numero 195  
+[2020-10-01 02:55:53] local.INFO: 195 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 195 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 196  
+[2020-10-01 02:55:53] local.INFO: Numero 197  
+[2020-10-01 02:55:53] local.INFO: Numero 198  
+[2020-10-01 02:55:53] local.INFO: 198 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 199  
+[2020-10-01 02:55:53] local.INFO: Numero 200  
+[2020-10-01 02:55:53] local.INFO: 200 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 201  
+[2020-10-01 02:55:53] local.INFO: 201 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 202  
+[2020-10-01 02:55:53] local.INFO: Numero 203  
+[2020-10-01 02:55:53] local.INFO: Numero 204  
+[2020-10-01 02:55:53] local.INFO: 204 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 205  
+[2020-10-01 02:55:53] local.INFO: 205 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 206  
+[2020-10-01 02:55:53] local.INFO: Numero 207  
+[2020-10-01 02:55:53] local.INFO: 207 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 208  
+[2020-10-01 02:55:53] local.INFO: Numero 209  
+[2020-10-01 02:55:53] local.INFO: Numero 210  
+[2020-10-01 02:55:53] local.INFO: 210 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: 210 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 211  
+[2020-10-01 02:55:53] local.INFO: Numero 212  
+[2020-10-01 02:55:53] local.INFO: Numero 213  
+[2020-10-01 02:55:53] local.INFO: 213 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 214  
+[2020-10-01 02:55:53] local.INFO: Numero 215  
+[2020-10-01 02:55:53] local.INFO: 215 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 216  
+[2020-10-01 02:55:53] local.INFO: 216 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 217  
+[2020-10-01 02:55:53] local.INFO: Numero 218  
+[2020-10-01 02:55:53] local.INFO: Numero 219  
+[2020-10-01 02:55:53] local.INFO: 219 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: Numero 220  
+[2020-10-01 02:55:53] local.INFO: 220 es multiplo de 5  
+[2020-10-01 02:55:53] local.INFO: Numero 221  
+[2020-10-01 02:55:53] local.INFO: Numero 222  
+[2020-10-01 02:55:53] local.INFO: 222 es multiplo de 3  
+[2020-10-01 02:55:53] local.INFO: La suma de los multiplos es 13275  
+[2020-10-01 02:55:53] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:55:53] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:56:02] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:56:02] local.INFO: Se validaron los datos con exito el numero ingresado es 23  
+[2020-10-01 02:56:02] local.INFO: Numero 0  
+[2020-10-01 02:56:02] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:56:02] local.INFO: Numero 1  
+[2020-10-01 02:56:02] local.INFO: Numero 2  
+[2020-10-01 02:56:02] local.INFO: Numero 3  
+[2020-10-01 02:56:02] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: Numero 4  
+[2020-10-01 02:56:02] local.INFO: Numero 5  
+[2020-10-01 02:56:02] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:56:02] local.INFO: Numero 6  
+[2020-10-01 02:56:02] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: Numero 7  
+[2020-10-01 02:56:02] local.INFO: Numero 8  
+[2020-10-01 02:56:02] local.INFO: Numero 9  
+[2020-10-01 02:56:02] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: Numero 10  
+[2020-10-01 02:56:02] local.INFO: 10 es multiplo de 5  
+[2020-10-01 02:56:02] local.INFO: Numero 11  
+[2020-10-01 02:56:02] local.INFO: Numero 12  
+[2020-10-01 02:56:02] local.INFO: 12 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: Numero 13  
+[2020-10-01 02:56:02] local.INFO: Numero 14  
+[2020-10-01 02:56:02] local.INFO: Numero 15  
+[2020-10-01 02:56:02] local.INFO: 15 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: 15 es multiplo de 5  
+[2020-10-01 02:56:02] local.INFO: Numero 16  
+[2020-10-01 02:56:02] local.INFO: Numero 17  
+[2020-10-01 02:56:02] local.INFO: Numero 18  
+[2020-10-01 02:56:02] local.INFO: 18 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: Numero 19  
+[2020-10-01 02:56:02] local.INFO: Numero 20  
+[2020-10-01 02:56:02] local.INFO: 20 es multiplo de 5  
+[2020-10-01 02:56:02] local.INFO: Numero 21  
+[2020-10-01 02:56:02] local.INFO: 21 es multiplo de 3  
+[2020-10-01 02:56:02] local.INFO: Numero 22  
+[2020-10-01 02:56:02] local.INFO: La suma de los multiplos es 134  
+[2020-10-01 02:56:02] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:56:02] local.INFO: Llegaron todos los datos  
+[2020-10-01 02:56:06] local.INFO: Ingerso al metodo multiplos  
+[2020-10-01 02:56:06] local.INFO: Se validaron los datos con exito el numero ingresado es 10  
+[2020-10-01 02:56:06] local.INFO: Numero 0  
+[2020-10-01 02:56:06] local.INFO: 0 es multiplo de 3  
+[2020-10-01 02:56:06] local.INFO: 0 es multiplo de 5  
+[2020-10-01 02:56:06] local.INFO: Numero 1  
+[2020-10-01 02:56:06] local.INFO: Numero 2  
+[2020-10-01 02:56:06] local.INFO: Numero 3  
+[2020-10-01 02:56:06] local.INFO: 3 es multiplo de 3  
+[2020-10-01 02:56:06] local.INFO: Numero 4  
+[2020-10-01 02:56:06] local.INFO: Numero 5  
+[2020-10-01 02:56:06] local.INFO: 5 es multiplo de 5  
+[2020-10-01 02:56:06] local.INFO: Numero 6  
+[2020-10-01 02:56:06] local.INFO: 6 es multiplo de 3  
+[2020-10-01 02:56:06] local.INFO: Numero 7  
+[2020-10-01 02:56:06] local.INFO: Numero 8  
+[2020-10-01 02:56:06] local.INFO: Numero 9  
+[2020-10-01 02:56:06] local.INFO: 9 es multiplo de 3  
+[2020-10-01 02:56:06] local.INFO: La suma de los multiplos es 23  
+[2020-10-01 02:56:06] local.INFO: Armando mensaje de envío  
+[2020-10-01 02:56:06] local.INFO: Llegaron todos los datos  
+[2020-10-01 03:03:15] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-10-01 03:03:15] local.INFO: Se validaron los datos con exito bienvenido-a_Treda solutions con_mis-amigos  
+[2020-10-01 03:03:15] local.INFO: Se convierte el string a convecion Camel Case  
+[2020-10-01 03:03:15] local.INFO: bienvenidoATredaSolutionsConMisAmigos  
+[2020-10-01 03:03:15] local.INFO: Armando mensaje de envío  
+[2020-10-01 03:03:15] local.INFO: Llegaron todos los datos  
+[2020-10-01 03:04:05] local.INFO: Ingreso a la funcion para remplazar caracteres de un string  
+[2020-10-01 03:04:05] local.INFO: Se validaron los datos con exito Came deerer-dedede_dedee  
+[2020-10-01 03:04:05] local.INFO: Se convierte el string a convecion Camel Case  
+[2020-10-01 03:04:05] local.INFO: cameDeererDededeDedee  
+[2020-10-01 03:04:05] local.INFO: Armando mensaje de envío  
+[2020-10-01 03:04:05] local.INFO: Llegaron todos los datos  
+[2020-10-01 03:08:47] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-10-01 03:08:47] local.INFO: Se validaron los datos con exito   
+[2020-10-01 03:08:47] local.INFO: Frase: con las palabras del corazon  
+[2020-10-01 03:08:47] local.INFO: Se explota el string en palabras y se recorren  
+[2020-10-01 03:08:47] local.INFO: Palabra: con  
+[2020-10-01 03:08:47] local.INFO: Palabra: las  
+[2020-10-01 03:08:47] local.INFO: Palabra: palabras  
+[2020-10-01 03:08:47] local.INFO: Palabra: del  
+[2020-10-01 03:08:47] local.INFO: Palabra: corazon  
+[2020-10-01 03:08:47] local.INFO: Armando mensaje de envío  
+[2020-10-01 03:08:47] local.INFO: Llegaron todos los datos  
+[2020-10-01 03:09:29] local.INFO: Ingreso al metodo invertirPalabras  
+[2020-10-01 03:09:29] local.ERROR: Los datos ingresados son inválidos: {"frase":["Este campo es requerido."]}  
+[2020-10-01 03:09:29] local.INFO: Armando mensaje de envío  
+[2020-10-01 03:09:29] local.INFO: Llegaron todos los datos  
+[2020-10-01 03:09:56] local.INFO: Ingreso al metodo getTiendas  
+[2020-10-01 03:09:56] local.INFO: Armando mensaje de envío  
+[2020-10-01 03:09:56] local.INFO: Llegaron todos los datos  
+[2020-10-01 03:10:01] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 03:10:01] local.ERROR: Los datos ingresados son inválidos: {"nombre":["Este campo es requerido."],"fechaApertura":["Este campo es requerido."]}  
+[2020-10-01 03:10:01] local.INFO: Armando mensaje de envío  
+[2020-10-01 03:10:01] local.INFO: Llegaron todos los datos  
+[2020-10-01 03:10:04] local.INFO: Ingreso al metodo crearTienda  
+[2020-10-01 03:10:04] local.ERROR: Los datos ingresados son inválidos: {"nombre":["Este campo es requerido."],"fechaApertura":["Este campo es requerido."]}  
+[2020-10-01 03:10:04] local.INFO: Armando mensaje de envío  
+[2020-10-01 03:10:04] local.INFO: Llegaron todos los datos  
